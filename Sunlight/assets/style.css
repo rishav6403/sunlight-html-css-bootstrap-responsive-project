@@ -1,0 +1,233 @@
+body{
+    background-image: url(images/dash_bg.d44872bc.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+body h1{
+        font-family: "Rammetto One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      body h2{
+        font-family: "Rammetto One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+#lgn-btn{
+    background-color: rgb(8, 202, 202);
+    border-radius: 5%;
+}
+#topNavbar a{
+    color: white;
+}
+#topNavbar a:hover{
+    color:  rgb(8, 202, 202);
+}
+#navitems li{
+    padding: 0 15px;
+}
+#quote h1 span{
+    color:rgb(8, 202, 202);
+}
+#quote p{
+    font-size: 20px;
+}
+#hdng1{
+    font-size: 72px;
+    line-height: 102px; 
+}
+#hero{
+    background-image: url(images/hero_bg.27dd3305.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#regBtn{
+    background-color:rgb(8, 202, 202);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#about{
+    background-color: black;
+}
+#about h2 span{
+    color: rgb(8, 202, 202);
+}
+#hdng2{
+    font-size: 47px;
+}
+#hdng2 span{
+    color: rgb(8, 202, 202);
+}
+#about p{
+    font-size: 18px;
+}
+#tokenImg img{
+    max-width: 100%;
+    height: auto;
+    padding: 35px;
+}
+#advntg{
+    background-image: url(images/advantages_bg.2926f6cb.png);
+    background-color: black;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+}
+#questions{
+    background-image: url(images/bep_bg.7a476ca7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#bep{
+    background: hsla(0,0%,100%,.25);
+}
+#takenomics{
+    background-color: black;
+}
+#takenomics li p {
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgba(27, 27, 27, 0.795);   
+}
+#takenomics li{
+    margin-top: 30px;
+}
+#Loc{
+    background: linear-gradient(#409fc2,#5984c2);
+    height: 80%;
+    width: 16px;  
+}
+#Loc1{
+    background: linear-gradient(#e41b1b,#f58c14);
+    height: 80%;
+    width: 16px;
+}
+#Loc2{
+    background: linear-gradient(#5c39da,#623fe2);
+    height: 80%;
+    width: 16px;
+}
+#swap{
+    background-color: rgba(39, 38, 38, 0.973);
+    box-shadow: 0 0 10px rgba(20, 118, 173, 1);
+}
+#hdng3{
+    font-size: 25px;
+}
+#swap2{
+    border: 2px solid  rgb(8, 202, 202);  
+}
+#address p{
+    overflow-x: scroll;
+    border: 2px solid  rgb(8, 202, 202);
+}
+#address p::-webkit-scrollbar{
+    display: none;
+}
+#copy-btn{
+    background-color:  rgb(8, 202, 202);
+}
+.msn-vsn{
+    background: linear-gradient(39deg,#0c485b,transparent);
+    border-radius: 5%;
+}
+#msn-img{
+    height: 200px;
+    display: block;  
+    right: 0;
+    margin-top: 15%;
+}
+#msn-img1{
+    height: 200px;
+    display: block;  
+    right: 0;
+    margin-top: 15%;
+}
+.images{
+    display: flex;
+    justify-content: end;
+}
+#game{
+    padding: 80px 0;
+}
+#gameImg{
+    max-width: 100%;
+    height: auto;
+}
+#exchange{
+    background-image: url(images/exchange_bg.28d59384.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+    .exchange1 {
+        background: linear-gradient(195deg, #000000, #0b4d60);
+        border-radius: 5%;
+    }
+#roadmapimg{
+    max-width: 100%;
+    height: auto;
+}
+#faq span{
+    color: rgb(8, 202, 202);
+}
+#accordion1{
+    border: none;
+}
+.accordion h3 button{
+    background-color: rgba(15, 15, 15, 0.973);
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+.accordion-collapse{
+    background-color: rgba(15, 15, 15, 0.973);
+}
+.accordion-item{
+    margin-bottom: 20px;
+    border: none;
+}
+#end{
+    border-bottom: 1px solid rgba(15, 15, 15, 0.973);
+    color: white;
+}
+footer li{
+    padding: 0 6px;
+}
+#dropdown-part{
+    display: none;
+    top: 32px;
+    left: 10px;
+    background-color: rgba(255,255,255,0.2);
+}
+#dropdown-part li a ,i{
+    margin-right: 14px;
+    color: white;
+}
+#dd-service:hover{
+    #dropdown-part{
+        display: block;
+    }
+}
+.dropdown-item:hover{
+    background-color: transparent !important;
+}
+::-webkit-scrollbar{
+    width: 2px;
+}
+::-webkit-scrollbar-track{
+    background-color: #ebd9c6;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #f0b36e;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #949696;
+}

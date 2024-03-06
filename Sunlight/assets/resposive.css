@@ -1,0 +1,66 @@
+@media (min-width: 320px) and (max-width: 991px) {
+    #navitems li{
+        padding:0px 0px;
+    }
+    footer li{
+        padding: 3px 9px;
+        justify-content: space-around;
+    }
+    #takenomics li{
+        margin-top: 0px;
+    }
+}
+@media  (max-width: 772px) {
+    #navitems{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media (min-width: 320px) and (max-width:998px){
+    #hdng1{
+        font-size: 35px;
+        line-height:35px;
+    }
+}
+@media (max-width: 998px) {
+    #hdng2{
+        text-align: center;
+        font-size: 23px;
+    }
+    #hdng3{
+        font-size: 15px;
+    }
+}
+@media (max-width:676px) {
+    .navbar-expand-sm .navbar-nav .nav-link {
+        padding: 10px 4px;
+    }
+}
+@media (max-width: 993px){
+    #takenomics li span{
+        height: 87%;
+    }
+}
+@media (min-width: 320px) and (max-width:575px) {
+    #takenomics li span{
+        height: 80%;
+    }  
+}
+@media (max-width: 575px) {
+    #column2{
+        margin-top: 25px;
+    }
+    #hdng1{
+        text-align: center;
+    }
+    #hdng2{
+        text-align: center;
+    }
+    #quote p{
+        text-align: center;
+    }
+    #column1{
+        display: flex;
+        justify-content: center;
+    }
+}
